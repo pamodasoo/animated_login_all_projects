@@ -15,7 +15,7 @@
     include("nav-bar.php");
   }
 ?>
-<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('image/doctor.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+
 <div class="container ">
   <h2>Welcome, <?php echo $_SESSION["first_name"];?>!</h2>
       <div class='alert alert-info'>

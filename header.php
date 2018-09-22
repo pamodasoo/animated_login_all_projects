@@ -21,17 +21,17 @@
               <li class="nav-item">
                 
               </li>
-              <li class="nav-item" >
-                <a class="nav-link" href="index.php" class=>Home</a>
+              <li class="nav-item" style="font" >
+                <a class="nav-link" href="index.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="aboutus.php">About Us</a>
+                <a class="nav-link" href="about.php">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="services.php">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contactus.php">Contact Us</a>
+                <a class="nav-link" href="contact.php">Contact Us</a>
               </li>
               <!-- <li class="nav-item" >
                 <a class="nav-link" href="login.php">Login</a>

@@ -9,7 +9,7 @@
   
 ?>
 
-<img src="Green-Light-Hospital-master/crs.jpeg" width="500px" height="350px" >
+<img src="image/crs.jpg" width="500px" height="350px" >
   <div class="blog-item-body">
 
             <h1 class="mt-0">About</h1>

@@ -22,7 +22,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="jumbotron.css" rel="stylesheet">
 
-<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('image/doctor.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+
 <div class="container">
  <?php 
     if(isset($_POST['nemail'])){
@@ -34,9 +34,9 @@
     }
 ?>
 
-<div class="col col-xl-6 col-sm-6" id="register1">
+<div class="col col-xl-6 col-sm-6 bg-light" id="register1">
 
-    <form method="post" action="nurse.php" class="col-sm-10 bg-light" style="opacity:0.90;">
+    <form method="post" action="nurse.php" class="col-sm-10 bg-light" style="margin-top:20px;">
     
       <h2>Add Nurse</h2>
         <div class="form-group">

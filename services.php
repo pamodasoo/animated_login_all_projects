@@ -1,108 +1,80 @@
 <?php
-    if(!isset($_SESSION))
-    {
+	if (!isset($_SESSION)) {
         session_start();
     }
 ?>
 
-<?php 
-  include("header.php");
-  include("library.php");
+<?php
+	include('header.php');
 ?>
 
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/mdb.min.css" rel="stylesheet">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Our Services</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
 
-      <!-- Mask & flexbox options-->
+		<!-- Main -->
+			<div id="main">
+				<center><h1 style="color: #000080">Our Services</h1></center>
+				<!-- Section -->
+					<section class="wrapper style1">
+						<div class="inner">
+							<!-- 2 Columns -->
+								<div class="flex flex-2">
+									<div class="col col1">
+										<div class="image square fit">
+											<a href="generic.html" class="link"><img src="image/look.JPEG" alt="" /></a>
+										</div>
+									</div>
+									<div class="col col2">
+										<h3>24 hour Nursing </h3>
+										<p>Our Nursing staff will take care about u.We provide you 24 hour nursing.We comfort you much as possible.You'll get really good experience all round.The skilled full staff and nursing staff will take care about you until get well.We comfort you much as possible </p>
+										
+									</div>
+								</div>
+						</div>
+					</section>
 
-
-<section class="bg-dark" >
-<section>
-  <div class="container py-3">
-    <div class="card bg-dark text-white border border-light rounded" style="opacity: 0.75;">
-      <div class="row ">
-        <div class="col-md-4">
-            <img src="image/1.jpeg" class="w-100">
-          </div>
-          <div class="col-md-8 px-3">
-            <div class="card-block px-3">
-              <h4 class="card-title" style="margin-top: 10px; font-size: 35px;">Looking for Doctors?</h4>
-              <h4 class="card-title">Want to find Best Doctor?</h4>
-              <p class="card-text" style="font-size: 30px;">You came to<br><b>THE RIGHT PLACE!</b><br>Register on our website  </p>
-              
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-<section>
-  <div class="container py-3">
-    <div class="card bg-dark text-white border border-light rounded" style="opacity: 0.75;">
-      <div class="row ">
-        
-          <div class="col-md-8 px-3">
-            <div class="card-block px-3">
-              
-              <p class="card-text" style="margin-top: 30px; font-size: 25px;">Our one minute registration process is easy and fast,<br> We collect your email address and basic information only.<br> And we guarantee that we do not share it with any other parties without your consent</p>
-              
-            </div>
-          </div>
-		<div class="col-md-4">
-            <img src="image/2.jpg" class="w-100">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container py-3">
-    <div class="card bg-dark text-white border border-light rounded" style="opacity: 0.75;">
-      <div class="row ">
-        <div class="col-md-4">
-            <img src="image/3.jpg" class="w-100">
-          </div>
-          <div class="col-md-8 px-3">
-            <div class="card-block px-3">
-              <h4 class="card-title" style="margin-top: 30px; font-size: 35px;">In Patient Services</h4>
-              <p class="card-text" style="font-size: 25px;">&nbsp &nbsp When it is necessary for you to get treatments from Green Light Hospitals you can be assured of receiving a professional and caring service by our Medical and Nursing staff </p>
-             
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+				<!-- Section -->
+					<section class="wrapper style2">
+						<div class="inner">
+							<div class="flex flex-2">
+								<div class="col col2">
+									<h3>Registration Process</h3>
+									<p>Green Light Hospital provide online registration process to your finger point.Our one minute registration process is easy and fast,
+We collect your email address and basic information only.
+And we guarantee that we do not share it with any other parties without your consent </p>
+								</div>
+								<div class="col col1 first">
+									<div class="image round fit">
+										<a href="generic.html" class="link"><img src="image/reg.JPEG" alt="" /></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="wrapper style1">
+						<div class="flex flex-2">
+										<div class="col col1">
+											<div class="image square fit">
+												<a href="generic.html" class="link"><img src="image/doo.JPG" alt="" /></a>
+											</div>
+										</div>
+										<div class="col col2">
+											<h3>Fully Trained and experienced staff </h3>
+											<p>We Guarantee about our staff.We have skilled and qualified doctors for each specific area.We gave approximatey 6 month traning to the all staff.So they can get experince.On the other hand our hospital has experienced doctors in the feild.It is a great opportunity you get from Us. </p>
+											
+										</div>
+						</div>
+					</section>	
 
 
-<section>
-  <div class="container py-3">
-    <div class="card bg-dark text-white border border-light rounded" style="opacity: 0.75;">
-      <div class="row ">
-        
-          <div class="col-md-8 px-3">
-            <div class="card-block px-3">
-              
-              <p class="card-text" style="margin-top: 30px; font-size: 25px;">Take a look at the facilities and services we offer to ensure that your stay with us is a restful, healthful experience. You'll see that we really do offer you a better experience all round</p>
-              <h4 class="card-title" style="font-size: 35px;">24 hour Nursing<br> Fully- trained and experienced staff</h4>
-             
-            </div>
-          </div>
-		<div class="col-md-4">
-            <img src="image/5.jpg" class="w-100">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</section>
+				
+
+	</body>
+</html>

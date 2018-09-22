@@ -22,7 +22,8 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="jumbotron.css" rel="stylesheet">
 
-<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('image/doctor.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+
+
 <div class="container">
  <?php 
     if(isset($_POST['demail'])){
@@ -34,8 +35,8 @@
     }
 ?>
 
-<div class="col col-xl-6 col-sm-6" id="register1" style="opacity:0.90;">
-    <form method="post" action="doctor.php" class="col-sm-10 bg-light">
+<div class="col col-xl-6 col-sm-6 bg-light" id="register1" >
+    <form method="post" action="doctor.php" class="col-sm-10 bg-light" style="margin-top:20px;">
       <h2>Add Doctor</h2>
         <div class="form-group">
           <label for="usr">Full Name:</label>
@@ -72,7 +73,7 @@
     </form>
  
         <hr>
-        <form method="post" action="doctor.php" class="col-sm-10 bg-light" style="opacity:0.90;">
+        <form method="post" action="image/doctor.php" class="col-sm-10 bg-light" style="opacity:0.90;">
 
         <div class="form-group">
                 <h2>Delete Doctor</h2>

@@ -87,13 +87,13 @@ session_start();
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="about.php">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="services.php">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="modal" data-target="#contact">Contact Us</a>
+              <a class="nav-link" href="contact.php">Contact Us</a>
             </li>
             <li class="nav-item" style="margin-left:450px;">
               <a class="nav-link"  data-toggle="modal" data-target="#login" >Login</a>
@@ -109,7 +109,7 @@ session_start();
     </nav>
     <!-- Navbar -->
     <!-- Full Page Intro -->
-    <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('walpaper.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('image/walpaper.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
       <!-- Mask & flexbox options-->
       <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
         <!-- Content -->
@@ -141,7 +141,7 @@ session_start();
       <div class="row py-5">
         <!--Grid column-->
         <div class="col-md-12 text-center">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Green Light  Hospitals is the most accredited hospital in the Sri Lankan healthcare sector. Since 2010, Hospitals has revolutionized the healthcare industry through infrastructure development and advancement of products and services, with a view to deliver healthcare that is on par with global medical standards.</p>
           
         </div>
         <!--Grid column-->
@@ -176,10 +176,6 @@ session_start();
           // noAccessIfLoggedIn();
         }
       }
-
-      
-
-
     ?>
 
   <div class="modal-dialog" role="document">
@@ -193,8 +189,8 @@ session_start();
       <div class="modal-body">
       <form action="index.php" method="POST">
         <div class="form-group">
-          <label for="usr">Username:</label>
-          <input type="text" class="form-control" name="email" placeholder="Username" style="width: 500;" required>
+          <label for="usr">Email:</label>
+          <input type="text" class="form-control" name="email" placeholder="Email" style="width: 500;" required>
         </div>
         <div class="form-group">
           <label for="pwd">Password:</label>
@@ -233,6 +229,9 @@ session_start();
       if($i==1){
         echo '<script type="text/javascript"> window.location = "add_patient.php"</script>';
       }
+    }else{
+      echo "<div class='alert alert-info'> <strong>Info!</strong> Login or Register to be able to book your appointment.
+              </div>";
     }
     unset($_POST);
   
@@ -359,11 +358,12 @@ session_start();
             <div class="col-md-4">
                 <div class="card-box">
                     <div class="card-title">
-                        <h2>ARE YOU A CONSULTANT?</h2>
-                        <p>In keeping with our promise to deliver the very best in healthcare, we welcome the highest echelon of specialist consultants to join our professional team. </p>
+                    <img src="image/consult.JPG" width="300" height="150">
+                        <h2>CAREERS</h2>
+                        <p>In keeping with our promise to deliver the very best in healthcare, we welcome the highest echelon of specialist consultants to join our professional team.</p>
                     </div>
                     <div class="card-link">
-                        <a href="" class="c-link">Learn More
+                        <a href="careers.php" class="c-link">Go
                             <i class="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -372,11 +372,12 @@ session_start();
             <div class="col-md-4">
                 <div class="card-box">
                     <div class="card-title">
-                        <h2>WHY JOIN GREEN LIGHT HOSPITALS?</h2>
+                    <img src="image/6.JPG" width="300" height="150">
+                        <h2>HIGHLIGHTS</h2>
                         <p>If you are passionate to serve humanity and be a part of a team that strives to provide the very best in patient care, please contact us. </p>
                     </div>
                     <div class="card-link">
-                        <a href="" class="c-link">Learn More
+                        <a href="" class="c-link">Go
                             <i class="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -385,11 +386,12 @@ session_start();
             <div class="col-md-4">
                 <div class="card-box">
                     <div class="card-title">
+                    <img src="image/suggest.JPEG" width="300" height="150">
                         <h2>SUGGESTIONS & COMPLAINTS</h2>
                         <p>Your suggestions and complaints help us improve the quality of our customer services, helping us to serve you with greater efficiency.</p>
                     </div>
                     <div class="card-link">
-                        <a href="" class="c-link">Learn More
+                        <a href="complain.php" class="c-link">Go
                             <i class="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -467,5 +469,6 @@ session_start();
 
       
     </style>
+     
 
 </html>

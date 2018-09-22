@@ -21,7 +21,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="jumbotron.css" rel="stylesheet">
 
-<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('image/doctor.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+
 
 <div class="container">
  <?php 
@@ -34,8 +34,8 @@
     }
 ?>
 
-<div class="col col-xl-6 col-sm-6" id="register1">
-    <form method="post" action="receptionist.php" class="col-sm-10 bg-light" style="opacity:0.90;">
+<div class="col col-xl-6 col-sm-6 bg-light" id="register1">
+    <form method="post" action="receptionist.php" class="col-sm-10 bg-light" style="margin-top:20px;">
       <h2>Add Receptionist</h2>
         <div class="form-group">
           <label for="usr">Full Name:</label>
