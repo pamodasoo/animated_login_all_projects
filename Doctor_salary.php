@@ -2,15 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title> Doctors Payroll</title>
-</head>
-
-<body>
+	<body>
 	<form id="Doctors salary Form" name="Doctor Salary" method="post" action="">
-		<table width="313" height="252" border="1">
+		<table width="313" height="252" border="1" cellpadding="20" cellspacing="20" align="center">
+			<br><br>
 			<tr>
-				<td colspan="2">Doctor's Salary Calculation</td>
+				<td colspan="2" align="center"><b>Doctor's Salary Calculation</b></td>
 			</tr>
 			<tr>
 				<td width="169">Doctor ID</td>
@@ -50,10 +47,11 @@
 			{
 				$salary = 10000;
 			}
-			echo $salary;
+			echo "<h2 align = 'center' > Salary for the month is Rs. " . $salary . "<h2>";
 
 			 
 		}
 
 
  
+			
