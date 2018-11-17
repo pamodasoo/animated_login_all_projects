@@ -2,11 +2,12 @@
 $link=mysqli_connect("localhost","root","");
 mysqli_select_db($link,"labtest");
 ?>
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<title>Labtest</title>
+	<title>select doctor</title>
 	<meta http-equiv="Content-Type" content="text/html=iso-8859-1">
 </head>
 <body>
@@ -78,7 +79,6 @@ mysqli_select_db($link,"labtest");
  		echo "</tr>";
  	}
  }
-
  ?>
 </body>
 </html>

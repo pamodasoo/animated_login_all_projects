@@ -1,13 +1,22 @@
+<?php
+    session_start();
+?>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+
 <DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<body>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title> Doctors Payroll</title>
+</head>
+
+<body>
 	<form id="Doctors salary Form" name="Doctor Salary" method="post" action="">
-		<table width="313" height="252" border="1" cellpadding="20" cellspacing="20" align="center">
-			<br><br>
+		<table width="313" height="252" border="1">
 			<tr>
-				<td colspan="2" align="center"><b>Doctor's Salary Calculation</b></td>
+				<td colspan="2">Doctor's Salary Calculation</td>
 			</tr>
 			<tr>
 				<td width="169">Doctor ID</td>
@@ -37,7 +46,6 @@
 		if(isset($_POST['submit']))
 		{
 			$appno = $_POST['appno'];
-
 			if($appno > 1)
 			{
 				$salary = ($appno * 800) +10000 ;
@@ -47,11 +55,6 @@
 			{
 				$salary = 10000;
 			}
-			echo "<h2 align = 'center' > Salary for the month is Rs. " . $salary . "<h2>";
-
+			echo $salary;
 			 
 		}
-
-
- 
-			
